@@ -1,5 +1,5 @@
 // figma node: 1:88 (FRAME) "Frame 427321263"
-export default function Frame427321263(props: { valueText?: string } = {}) {
+export default function Frame427321263(props = {}) {
   return (
     <div style={{
       position: "relative",

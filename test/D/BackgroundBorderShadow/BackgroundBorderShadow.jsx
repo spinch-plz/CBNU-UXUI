@@ -1,5 +1,5 @@
 // figma node: 1:111 (FRAME) "Background+Border+Shadow"
-export default function BackgroundBorderShadow(props: { container_symbolText?: string } = {}) {
+export default function BackgroundBorderShadow(props = {}) {
   return (
     <div data-name="Background+Border+Shadow" style={{
       position: "relative",

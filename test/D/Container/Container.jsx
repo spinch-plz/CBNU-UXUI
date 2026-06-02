@@ -1,5 +1,5 @@
 // figma node: 1:57 (FRAME) "Container"
-export default function Container(props: { sText?: string } = {}) {
+export default function Container(props = {}) {
   return (
     <div data-name="Container" style={{
       position: "relative",
