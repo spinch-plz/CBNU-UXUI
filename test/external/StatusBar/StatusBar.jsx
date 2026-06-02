@@ -1,5 +1,5 @@
 // figma node: 1:4 (SYMBOL) "Status bar"
-export default function StatusBar(props: { overrideFill?: string } = {}) {
+export default function StatusBar(props = {}) {
   return (
     <div data-name="Status bar" style={{
       position: "relative",

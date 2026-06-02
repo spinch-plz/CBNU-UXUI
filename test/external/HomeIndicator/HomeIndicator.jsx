@@ -1,5 +1,5 @@
 // figma node: 1:15 (SYMBOL) "Home Indicator"
-export default function HomeIndicator(props: { overrideFill?: string } = {}) {
+export default function HomeIndicator(props = {}) {
   return (
     <div data-name="Home Indicator" style={{
       position: "relative",
